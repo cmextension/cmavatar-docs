@@ -10,7 +10,7 @@ You can download CM Avatar from `Github <https://github.com/cmextension/cmavatar
 Install
 -------
 
-Installation is very easy, you just need to it by uploading the package via Extension Manager.
+Installation is very easy, you just need to upload the package via Extension Manager.
 
 Update
 ------
