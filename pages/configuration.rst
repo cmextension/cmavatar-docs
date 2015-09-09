@@ -35,7 +35,8 @@ On the left side, you configure the following options:
 * **Avatar folder**: The path to the folder where user avatars are stored, you create it in the step above. This path is relative to the root of your webspace. Example: images/avatars. **Note: Do not start the path with a slash!**
 * **Allowed image extensions**: Extensions (file types) which are allowed to upload, the extensions are separated by comma, for example: bmp,gif,jpg,png.
 * **Maximum size (in MB)**: The maximum size of image which is allowed to upload. **Note: your server also has its own maximum limit.**
-* **Avatar's width (in pixel)**: The avatar file will be resized to this width. The height will be calculated and resized to keep the image's ratio.
+* **Avatar's maximum width (in pixel)**: The maximum width of avatar. Avatar file will be resized to this width. The height will be calculated and resized to keep the image's ratio.
+* **Avatar's maximum height (in pixel)**: The maximum height of avatar. After avatar is resized based on maximum width, if the avatar's height is bigger than this value, avatar file will be resized to this height, the width will be calculated and resized to keep the image's ratio.
 * **Display avatar in profile**: Display the current avatar in profile view. By default this option is disabled because **it is not possible to display an image in profile view**. Please view :ref:`ref-display` section for solution.
 
 After you save the plugin, you can see the options for uploading avatar when you edit your profile.
