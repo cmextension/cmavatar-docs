@@ -11,7 +11,7 @@ To display avatar in Joomla!'s profile view, you will need to override the layou
 
 Copy the file components/com_users/views/profile/tmpl/default_custom.php to this location: templates/YOUR_CURRENT_TEMPLATE/html/com_users/profile/default_custom.php.
 
-Below these 2 lines::
+Above these 2 lines::
 
 	<?php else : ?>
 		<?php echo JHtml::_('users.value', $field->value); ?>
